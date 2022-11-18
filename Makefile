@@ -8,7 +8,7 @@ build: \
 	dist/main.js
 
 check:
-	npx --no -- tsc
+	npx --no -- tsc --noEmit
 
 dist/main.js: | src/main.tsx dist
 	npx --no -- esbuild --bundle $(word 1,$|) --outfile=$@
