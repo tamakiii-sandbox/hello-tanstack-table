@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/tamakiii-sandbox/hello-tanstack-table/issues"
   },
-  "homepage": "https://github.com/tamakiii-sandbox/hello-tanstack-table#readme"
+  "homepage": "https://github.com/tamakiii-sandbox/hello-tanstack-table#readme",
+  "dependencies": {
+    "@tanstack/react-table": "^8.5.30"
+  }
 }
