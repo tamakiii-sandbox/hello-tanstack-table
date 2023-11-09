@@ -1,0 +1,31 @@
+{
+  "name": "hello-tanstack-table",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamakiii-sandbox/hello-tanstack-table.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tamakiii-sandbox/hello-tanstack-table/issues"
+  },
+  "homepage": "https://github.com/tamakiii-sandbox/hello-tanstack-table#readme",
+  "dependencies": {
+    "@tanstack/react-table": "^8.5.30",
+    "esbuild": "^0.15.14",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.9.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.9"
+  }
+}
